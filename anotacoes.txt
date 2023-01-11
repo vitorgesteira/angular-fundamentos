@@ -1,0 +1,26 @@
+# Instalar o angular de maneira global no cmd: npm i -g @angular/cli
+
+# Extensão do vscode: Angular Language Service
+
+# Criar o projeto pelo cmd: ng new nome do projeto
+
+# Rodar o projeto: npm start
+
+# Criar um componente usando o CLI do angular: ng generate component nome do componente
+
+	obs: gera uma pasta com o nome do componente e cria os arquivos para criar os componentes
+
+# Criar o próprio pipe pelo terminal: ng g pipe  nome do pipe a criar
+
+# Biblioteca para fazer roteamento: npm i @angular/router
+
+# Criar o módulo responsável por fazer o roteamento: ng generate module app-routing --flat --module=app
+
+# Rodar o projeto com o servidor: ng serve --open
+
+# criar o lazy-loading: ng g module lazy-loading --route=lazy-loading --module=app.module
+
+# hoot guard (proteger pagina restrita): ng g guard auth
+	obs: entre as opçoes escolhe o CanActivate
+
+# Criar um serviço de autenticação: ng g service auth
